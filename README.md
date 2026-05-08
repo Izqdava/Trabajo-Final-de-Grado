@@ -5,7 +5,7 @@
 
 Forecasting Spanish housing transactions across a three-level territorial hierarchy (national / autonomous communities / provinces, 2009–2019), comparing **bottom-up**, **top-down** and **middle-out** reconciliation strategies and contrasting a custom SARIMA search function against R's `auto.arima`.
 
-![Bottom-up forecast — MAPE-selected models by autonomous community](bottom-up_mape.png)
+![Bottom-up forecast — MAPE-selected models by autonomous community](Output/bottom-up_mape.png)
 
 ---
 
