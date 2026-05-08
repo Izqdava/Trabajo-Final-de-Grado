@@ -122,7 +122,7 @@ Then run the scripts in `R/` in order (loading → modeling → reconciliation �
 ## Limitations & future work
 
 - Sample ends in 2019, so the model is not exposed to the COVID-19 structural break or the post-2021 housing-cycle shifts.
-- All models are univariate — no exogenous covariates such as interest rates, employment or housing supply.
+- Calendar regressors (working days, leap-year, holidays) are the only exogenous inputs; macroeconomic covariates such as interest rates, employment or housing supply are not yet integrated and are a natural extension.
 - Reconciliation is unweighted (sum / proportional). The optimal **MinT reconciliation** (Hyndman et al., via `hts` / `fable`) is a natural next step.
 - Computational cost of the custom search grows with the order grid; could be parallelized.
 
