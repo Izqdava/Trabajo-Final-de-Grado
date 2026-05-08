@@ -85,11 +85,10 @@ See `thesis.pdf` for the full discussion (chapters 3.5–3.8 and the appendix ta
 
 ```
 .
-├── R/              R scripts: data loading, manual fit, search function, reconciliation strategies, evaluation
-├── data/           Input data from INE (or instructions to download)
-├── output/         Forecast plots and per-series error tables
-├── bottom-up_mape.png   Headline result figure
-├── thesis.pdf      Full thesis document
+├── CodeR/              R scripts: data loading, manual fit, search function, reconciliation strategies, evaluation
+├── Datos/           Input data from INE (or instructions to download)
+├── Output/         Forecast plots and per-series error tables
+├── Modelizacion masiva de series temporales.pdf      Full thesis document
 └── README.md
 ```
 
